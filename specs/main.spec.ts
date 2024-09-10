@@ -24,9 +24,11 @@ describe("fizz buzz", () => {
     
     describe("when it should return buzz", ()=> {
         it("should return buzz when given 5", () => {
-            expect(fizzBuzz(3)).toEqual("fizz");
+            expect(fizzBuzz(5)).toEqual("buzz");
         });
-        
+        it("should return buzz when given 10", () => {
+            expect(fizzBuzz(10)).toEqual("buzz");
+        });
     });
     
 });

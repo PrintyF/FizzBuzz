@@ -3,7 +3,7 @@ export function fizzBuzz(valueToCheck: number): number | string {
         return "fizz"
     }
     if (valueToCheck === 5) {
-        return "fizz"
+        return "buzz"
     }
     return valueToCheck;
 }

@@ -1,12 +1,16 @@
 export function fizzBuzz(valueToCheck: number): number | string {
-    if (valueToCheck%15 === 0) {
+    if (isDivisibleBy(valueToCheck, 15)) {
         return "fizzbuzz";
     }
-    if (valueToCheck%3 === 0) {
+    if (isDivisibleBy(valueToCheck, 3)) {
         return "fizz";
     }
-    if (valueToCheck%5 === 0) {
+    if (isDivisibleBy(valueToCheck, 5)) {
         return "buzz";
     }
     return valueToCheck;
+}
+
+function isDivisibleBy(valueToCheck: number, factor: number) {
+    return valueToCheck % factor === 0;
 }

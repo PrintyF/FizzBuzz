@@ -31,4 +31,13 @@ describe("fizz buzz", () => {
         });
     });
     
+    describe("when it should return fizzbuzz", () => {
+        it("should return fizzbuzz when given 15", () => {
+            expect(fizzBuzz(15)).toEqual("fizzbuzz");
+        });
+        it("should return fizzbuzz when given 30", () => {
+            expect(fizzBuzz(30)).toEqual("fizzbuzz");
+        });    
+    });
+
 });

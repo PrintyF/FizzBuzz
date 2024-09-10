@@ -12,7 +12,7 @@ describe("fizz buzz", () => {
         });
     });
     
-    describe("when it should return number", ()=> {
+    describe("when it should return fizz", ()=> {
         it("should return fizz when given 3", () => {
             expect(fizzBuzz(3)).toEqual("fizz");
         });

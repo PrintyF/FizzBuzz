@@ -1,3 +1,3 @@
-export function fizzBuzz(n: any): any {
-    return;
+export function fizzBuzz(valueToCheck: number): number {
+    return 1;
 }

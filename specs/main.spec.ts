@@ -5,5 +5,7 @@ describe("fizz buzz", () => {
         expect(fizzBuzz(1)).toEqual(1);
     })
 
-
+    it("should return 2 when given 2", () => {
+        expect(fizzBuzz(2)).toEqual(2);
+    })
 });
